@@ -1,0 +1,45 @@
+/** navbar**/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.nev-logo{
+    height: 50px;
+    width: 115px;
+}
+.logo{
+    background-image:url("llogo.jpg");
+    height: 50px;
+    width: 115px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/** box-1**/
+.nav-search{
+    display: flex;
+    height: 36px;
+    width: 522px;
+    border-radius: 6px;
+    background-color: pink;
+    border: 1px solid gray;
+}
+.search-icon{
+    width:39px ;
+    height: 36px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.search-input{
+    border: none;
+    width: 483px;
+}
