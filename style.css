@@ -8,13 +8,14 @@
     display: flex;
     align-items: center;
     justify-content:space-evenly;
+    margin-left: 150px;
 }
 .nev-logo{
     height: 50px;
     width: 115px;
 }
 .logo{
-    background-image:url("llogo.jpg");
+    background-image:url("web.jpg");
     height: 50px;
     width: 115px;
     background-size: contain;
@@ -28,7 +29,8 @@
     width: 522px;
     border-radius: 6px;
     background-color: pink;
-    border: 1px solid gray;
+    border: 1px solid #e0e0e0;
+    margin-right: 250px;
 }
 .search-icon{
     width:39px ;
@@ -42,4 +44,51 @@
 .search-input{
     border: none;
     width: 483px;
+    
+}
+
+/**BOX-2**/
+.location{
+    border: none;
+}
+
+.profile{
+    display: flex;
+    margin-right: 150px;
+
+}
+.profile-icon{
+    margin-right: 10px;
+}
+
+
+
+
+/**sec row**/
+.pannel{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    background-color: #e0e0e0;
+    
+    
+}
+
+.pan p{
+    margin: 10px;
+    font-size: 0.9rem;
+}
+
+.pannel-left{
+    display: flex;
+    margin-left: 100px;
+    justify-content: flex-start;
+    margin-left: 150px;
+}
+.pannel-right{
+    display: flex;
+    margin-right: 100px;
+    
+    margin-left: 475px;
+    margin-right: 150px;
 }
